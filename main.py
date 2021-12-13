@@ -5,7 +5,7 @@ import threading
 from queue import Queue
 
 # Local machine inet
-target = "127.0.0.1"
+target = input("IP: ")
 queue = Queue()
 open_ports = []
 
